@@ -1,0 +1,158 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.navbar{
+	position:fixed;
+	z-index:1;
+	 background: rgba(192, 192, 192, 0.5);
+	width:100%;
+}
+
+.sidenav {
+   height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10px;
+    text-align:center;
+	margin-top:15%;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("https://scontent-lga3-1.cdninstagram.com/t51.2885-15/e35/14359422_1075538705849218_2096012261708529664_n.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("http://i67.tinypic.com/15wfpya.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("https://scontent-lga3-1.cdninstagram.com/t51.2885-15/e35/13642844_1740593596215393_2053614941_n.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.topWords {
+	font-family: 'Lobster Two', cursive;
+	color: white;
+	padding: 18px;
+	font-size: 70px;
+	letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+.menuOpen{
+	float:right;
+}
+
+div.gallery {
+   
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+	opacity: ;
+	margin-bottom:;
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+	
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 5px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
