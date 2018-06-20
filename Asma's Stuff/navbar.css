@@ -1,0 +1,47 @@
+#mySidenav a {
+		position: absolute;
+		left: -100px;
+		transition: 0.3s;
+		padding: 15px;
+		width: 100px;
+		text-decoration: none;
+		font-size: 20px;
+		color: white;
+		border-radius: 0 5px 5px 0;
+}
+		
+@media (min-width:1200px){
+		#mySidenav{
+		position:fixed;
+		}
+}
+
+#mySidenav a:hover{
+		left: 0;
+	}
+
+#about {
+	top: 20px;
+	background-color: purple;
+}
+
+#gallery {
+	top: 80px;
+	background-color: purple;
+}
+		
+#events{
+	top:140px;
+	background-color: purple;
+}
+
+#contact {
+	top: 200px;
+	background-color: purple;
+}
+
+#instagram {
+	top: 260px;
+	background-color: purple;
+}
+		

@@ -12,23 +12,26 @@
 	
 <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
 
-
-
 <style>
 
 </style>
+
 </head>
+
 <body>
+
+	<div id="home"></div>
 
 	<div class="navbar">
 	<div id="mySidenav" class="sidenav">
 	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="#home"onclick="closeNav()">Home</a>
 	  <a href="#about"onclick="closeNav()">About</a>
 	  <a href="#gallery" onclick="closeNav()">Gallery</a>
 	  <a href="#contact" onclick="closeNav()">Contact</a>
 	</div>
 
-	<span style="font-size:50px;cursor:pointer" onclick="openNav()"><span class="menuOpen">&#9776;</span></span> <span class= "logo" style="font-size:50px">Iqbal Photography</span>
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()"><span class="menuOpen">&#9776;</span></span> <span class= "logo" style="font-size:30px">Iqbal Photography</span>
 
 	</div>
 
@@ -42,7 +45,7 @@
 
 	<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: center;">
 	  <h3 style="text-align:center;">About</h3>
-	  <p>Hi! My name is Asma. I take pictures and stuff. It's a lot of fun.Hi! My name is Asma. I take pictures and stuff. It's a lot of fun.Hi! My name is Asma. I take pictures and stuff. It's a lot of fun.Hi! My name is Asma. I take pictures and stuff. It's a lot of fun.Hi! My name is Asma. I take pictures and stuff. It's a lot of fun.Hi! My name is Asma. I take pictures and stuff. It's a lot of fun.</p>
+	  <p>Hi! My name is Asma and welcome to my website! Ever since I first picked up a camera I've enjoyed photography. So wherever I go I take my camera with me and try to capture everything that happening around me. You know how they say a picture says 1000 words? Well I believe those 1000 words make up a story and that its my job to tell that story the way it was meant to be told. I specialize in everything, from weddings and proposals to corporate events and birthday parties and everything in between. So take a look around and enjoy your visit! </p>
 	</div>
 
 	<div class="bgimg-2">
@@ -51,35 +54,41 @@
 	<div id="gallery"></div>
 
 	<div style="position:relative;">
-	  <div style="color: black;background-color:white;text-align:center;padding:50px 80px;text-align: center;">
+	  <div style="color: black;background-color:white;text-align:center;padding:50px 80px;">
 		<h3 style="text-align:center;">Gallery</h3>
-	   <div class="responsive">
-	  <div class="gallery">
-		  <img src="https://lh3.googleusercontent.com/1M5e1PoU2qFO83PIKX7yO1KML1riVokxZNVh4N8q8bsEsYuXQARs16sN5icF6EB6jY1bawu6YiJz8B4qCONINimT7WLiAVDaP-QGs8CcOp7jdYTiyAQAnSwdhdEkRnUsEgM35xs_D991HQFkDe3GRiRQ20R7fQbTRAEPpWKmwVjqD7qd-3GFJdox5It-lkTh9udntJbch293Ns9J0yEf0Z4xzFD2BHDYx14gu5o0-i-yPAEQNGgADyL5qFmGBu_zsg4N8eY7Yi1JXjYyyNys4E05KFV5YsgTQdTjisiBjYbNkW1yCbfxOkPiADORh7ijCtNdfWRkJFZEnZYAzSOyrpAUzdrQJoNn3vg0kSlxnDZVaVraI8znv2DceFXxv3fbbL_ZPehYHZ8huPFZlcOmSymqnxZqFjXtQKG39vxwzcTCFe9_EGd0qXT2wYHBvA-H3TXMqweTzAkffCvW__UYF_kXL9BpGrGkF5MbKb7Vxs0qzhZmhDSYpnJOQs8AkYJV3wdhZLVTI6i4b9RvrgATvC35m0A_z0kLiEyvloOPHfiCXDLjXhnjROp5QbzN2uuhWUHGAE48S4MAyblgGzR4No_mhNtRejO3u1ATMxvdJ5wxX-qt-ZngpDptsPM0UARiys5mrVoPcnImPKJ3Q-ki9bxRmY1UsZnQ8kk=w1434-h949-no" alt="" width="300" height="200">
-		</a>
+	  <div class="responsive">
+		<div class="gallery">
+			<a href="galleries/weddings-gallery.html">
+				<img src="https://lh3.googleusercontent.com/1M5e1PoU2qFO83PIKX7yO1KML1riVokxZNVh4N8q8bsEsYuXQARs16sN5icF6EB6jY1bawu6YiJz8B4qCONINimT7WLiAVDaP-QGs8CcOp7jdYTiyAQAnSwdhdEkRnUsEgM35xs_D991HQFkDe3GRiRQ20R7fQbTRAEPpWKmwVjqD7qd-3GFJdox5It-lkTh9udntJbch293Ns9J0yEf0Z4xzFD2BHDYx14gu5o0-i-yPAEQNGgADyL5qFmGBu_zsg4N8eY7Yi1JXjYyyNys4E05KFV5YsgTQdTjisiBjYbNkW1yCbfxOkPiADORh7ijCtNdfWRkJFZEnZYAzSOyrpAUzdrQJoNn3vg0kSlxnDZVaVraI8znv2DceFXxv3fbbL_ZPehYHZ8huPFZlcOmSymqnxZqFjXtQKG39vxwzcTCFe9_EGd0qXT2wYHBvA-H3TXMqweTzAkffCvW__UYF_kXL9BpGrGkF5MbKb7Vxs0qzhZmhDSYpnJOQs8AkYJV3wdhZLVTI6i4b9RvrgATvC35m0A_z0kLiEyvloOPHfiCXDLjXhnjROp5QbzN2uuhWUHGAE48S4MAyblgGzR4No_mhNtRejO3u1ATMxvdJ5wxX-qt-ZngpDptsPM0UARiys5mrVoPcnImPKJ3Q-ki9bxRmY1UsZnQ8kk=w1434-h949-no" alt="" width="300" height="200">
+			</a>
 		<div class="desc">Weddings</div>
-	  </div>
+		</div>
 	</div>
 
 
 	<div class="responsive">
-	  <div class="gallery">
-		  <img src="https://lh3.googleusercontent.com/NR6sjauXWaMXJoAJ4piVLHLX598cFEQLYMUNdbHs-WWwPQ2dUvhI8k9F9dCy7CMczez1pDBJlGnJ38zi6EPxZFdzxz27EzSkRkqI4kO1PopbDpQJDbaVfF5Y8BdDmzNFFSxrROboSqWpvtAyl5lSti73l3Br7xOGBlTvcyFdVRuz0S6RqDn0vxK3VuKAdWbPSkrxO5YA7D-v6T_TnEV4TXkuPbXokzK7iICkdU2CbFAWzDLvnC-06pNdq-840H_xCqeDFc1l8NIz52A-VEb52dtNqontNxKcROP4bfH1GPfYqwpPA2EyuokRX8i8nNgdJVBnuES7F1hsXtz5gQ8bPCKZZLFno7XKnNP3CqUbpaSys63xjnUzNfSnj0LB3TqiFlAot9z3rOju1IbMQhtllVBTRvJVhaW4TSsdBx2YKmokMRGDXP3_nOV-KX1GUAnzYBjjy-sBH4Yq2nCs0ZVii2YQgxq7l-daeY4DCLPSA6cUASf5b0Wlf9RqeO6-1vcw8I7fXz0Mf9VGLFFPL1XqG3IVs3f95QXT4YOFZSvshy6_nXp2XTS_TjMtvpte3LfyC4JPhzMZQ5eoNIheuf_LD--r2B-N-rKZt_UkdYF0CUsF5XICN959WYaSyZ5bZyQ5aqutCxh3MhBNj0TVblr9BfofyoZWe9IwnS0=w1434-h949-no" alt="" width="600" height="400">
-		<div class="desc">Engagements</div>
+		<div class="gallery">
+			<a href="galleries/proposals-gallery.html">
+				<img src="https://lh3.googleusercontent.com/NR6sjauXWaMXJoAJ4piVLHLX598cFEQLYMUNdbHs-WWwPQ2dUvhI8k9F9dCy7CMczez1pDBJlGnJ38zi6EPxZFdzxz27EzSkRkqI4kO1PopbDpQJDbaVfF5Y8BdDmzNFFSxrROboSqWpvtAyl5lSti73l3Br7xOGBlTvcyFdVRuz0S6RqDn0vxK3VuKAdWbPSkrxO5YA7D-v6T_TnEV4TXkuPbXokzK7iICkdU2CbFAWzDLvnC-06pNdq-840H_xCqeDFc1l8NIz52A-VEb52dtNqontNxKcROP4bfH1GPfYqwpPA2EyuokRX8i8nNgdJVBnuES7F1hsXtz5gQ8bPCKZZLFno7XKnNP3CqUbpaSys63xjnUzNfSnj0LB3TqiFlAot9z3rOju1IbMQhtllVBTRvJVhaW4TSsdBx2YKmokMRGDXP3_nOV-KX1GUAnzYBjjy-sBH4Yq2nCs0ZVii2YQgxq7l-daeY4DCLPSA6cUASf5b0Wlf9RqeO6-1vcw8I7fXz0Mf9VGLFFPL1XqG3IVs3f95QXT4YOFZSvshy6_nXp2XTS_TjMtvpte3LfyC4JPhzMZQ5eoNIheuf_LD--r2B-N-rKZt_UkdYF0CUsF5XICN959WYaSyZ5bZyQ5aqutCxh3MhBNj0TVblr9BfofyoZWe9IwnS0=w1434-h949-no" alt="" width="600" height="400">
+			</a>
+		<div class="desc">Proposals</div>
 	  </div>
 	</div>
 
 	<div class="responsive">
-	  <div class="gallery">
-		<a href="galleries/location-gallery.html">
-		  <img src="https://lh3.googleusercontent.com/nL2v8OTaVAQeJbbPZjdt66EKlUGZZEyHNAKFEDdUXQkJoHT3MdoRWOJGVg-8CoyXipNrct6NwoPM6bhtvGZ9z-8rthBIn_-D15d3AkIZrTQq6ABEs3aV0exnQmX0mxCyftQ5UC-4CbWMFbKNpAnLeYlX8ThRqbfmhNP3Ay_Oklv0BLHT4p57FFVO6jwuVniHeZxwQNW1v76--EUvScjE9roHceNeXFA4ajEf3kWWT2aOYgmbeIBEgqgbqvqMBbr4laRmnrO23yNKKVacLqwf3aBYutUoYnyIwX_Mr4mY-30R928xA8yCk2r8QCG8PSAXygGsnYKEXnB0zL3zCEckjuyoCXdiBfxy_G4LAm5LF_zDYD29lMjMlVAAMVF3ZKlcoe5opwPmSIwVDHy4vCysQJW6gEynk-iLqNIVAXpbzMM9cXyOp4_btdfrVoICiijM8GL2TOuzvZKrnoQFs127vLhWq1m3RRk45FACB6ojgvqadpsI0FS5Pf6q_k4jzKfCxXwsCWxDJxQq_cbp_7_sd6roS1LFycVLup8kj03u5-PMH9I2z-vsPl5Oicdo5-hoG-FnQUwk6MpSRy7iA8ThxBDOA5pmnm6ph7EeconMrqvo-7iHItewadiXoHmcCz7Bw37vdXN6kYQ6bEtSxbaZP0ARt4_VDxbXycI=w1433-h949-no" alt="" width="600" height="400">
+		<div class="gallery">
+			<a href="galleries/location-gallery.html">
+				<img src="https://lh3.googleusercontent.com/nL2v8OTaVAQeJbbPZjdt66EKlUGZZEyHNAKFEDdUXQkJoHT3MdoRWOJGVg-8CoyXipNrct6NwoPM6bhtvGZ9z-8rthBIn_-D15d3AkIZrTQq6ABEs3aV0exnQmX0mxCyftQ5UC-4CbWMFbKNpAnLeYlX8ThRqbfmhNP3Ay_Oklv0BLHT4p57FFVO6jwuVniHeZxwQNW1v76--EUvScjE9roHceNeXFA4ajEf3kWWT2aOYgmbeIBEgqgbqvqMBbr4laRmnrO23yNKKVacLqwf3aBYutUoYnyIwX_Mr4mY-30R928xA8yCk2r8QCG8PSAXygGsnYKEXnB0zL3zCEckjuyoCXdiBfxy_G4LAm5LF_zDYD29lMjMlVAAMVF3ZKlcoe5opwPmSIwVDHy4vCysQJW6gEynk-iLqNIVAXpbzMM9cXyOp4_btdfrVoICiijM8GL2TOuzvZKrnoQFs127vLhWq1m3RRk45FACB6ojgvqadpsI0FS5Pf6q_k4jzKfCxXwsCWxDJxQq_cbp_7_sd6roS1LFycVLup8kj03u5-PMH9I2z-vsPl5Oicdo5-hoG-FnQUwk6MpSRy7iA8ThxBDOA5pmnm6ph7EeconMrqvo-7iHItewadiXoHmcCz7Bw37vdXN6kYQ6bEtSxbaZP0ARt4_VDxbXycI=w1433-h949-no" alt="" width="600" height="400">
+			</a>
 		<div class="desc">Location</div>
-	  </div>
+		</div>
 	</div>
 
 	<div class="responsive">
-	  <div class="gallery">
-		  <img src="https://lh3.googleusercontent.com/gNt23bg5D9i76R-r0aXrT3pUUXKDnh56_4CH6MT5AOio90hdNsnO7zIxGxfwe-LydAkiKjNoqA16Km_hoAZXEZ8m5dJazgqLlgHt9PSrBKH85Q_b3AMejWgcUJWWSktjud_cAymNVpSz3oNqh9RlBECGF34vRoGJlElzRPfuXaJcGKRhNXdu8fKqKcC97s0eRFS_ea1saDKHw-f7sQdy_qWkO3uF8blv-SzNPIzaOCY8RQmYv_kpGtLujG5mDz2hdBCrM-ycQuUe2u3DG7mzUeJoZaCFL1N4NepXzl9MYxgl8K1Yp5dGiqBsGacDybt4haEKWWKkKfVAxhWJALY75L3U3Gk8tfYCA7JQ_2RVt_wdguV1R2a5CyNS11sOo9Xii4kM6ctc9VgiQh6iMUgc9tdu1VAb5QtAKa26abFGcFE-1zBDWKS9ThQiqk-s8S_IlCmnpEuEf0-p4pMjiIUXWjdwlx2eWwMS361qrsl7ZaRbPs4BVM1Ma3rmZHwY6FatOKvd-2MtGJ4fmy6iIfkoECeoppk3X4yYePUBWPAdIv4fJMX-cyeWrbtW4zizQ52NfdlSrYBijsTUvfo50XyhE62G0VbpMOXGYMJoaqaLDZzBxKdTOvCWlrrNJ1M022f2DoiwpVMA5ZXsY6sCVZDgjxr3qvnoCRsqVvo=w1434-h949-no" alt="" width="600" height="400">
+		<div class="gallery">
+			<a href="galleries/portraits-gallery.html">
+				<img src="https://lh3.googleusercontent.com/gNt23bg5D9i76R-r0aXrT3pUUXKDnh56_4CH6MT5AOio90hdNsnO7zIxGxfwe-LydAkiKjNoqA16Km_hoAZXEZ8m5dJazgqLlgHt9PSrBKH85Q_b3AMejWgcUJWWSktjud_cAymNVpSz3oNqh9RlBECGF34vRoGJlElzRPfuXaJcGKRhNXdu8fKqKcC97s0eRFS_ea1saDKHw-f7sQdy_qWkO3uF8blv-SzNPIzaOCY8RQmYv_kpGtLujG5mDz2hdBCrM-ycQuUe2u3DG7mzUeJoZaCFL1N4NepXzl9MYxgl8K1Yp5dGiqBsGacDybt4haEKWWKkKfVAxhWJALY75L3U3Gk8tfYCA7JQ_2RVt_wdguV1R2a5CyNS11sOo9Xii4kM6ctc9VgiQh6iMUgc9tdu1VAb5QtAKa26abFGcFE-1zBDWKS9ThQiqk-s8S_IlCmnpEuEf0-p4pMjiIUXWjdwlx2eWwMS361qrsl7ZaRbPs4BVM1Ma3rmZHwY6FatOKvd-2MtGJ4fmy6iIfkoECeoppk3X4yYePUBWPAdIv4fJMX-cyeWrbtW4zizQ52NfdlSrYBijsTUvfo50XyhE62G0VbpMOXGYMJoaqaLDZzBxKdTOvCWlrrNJ1M022f2DoiwpVMA5ZXsY6sCVZDgjxr3qvnoCRsqVvo=w1434-h949-no" alt="" width="600" height="400">
+			</a>
 		<div class="desc">Portraits</div>
 	  </div>
 	</div>
@@ -94,10 +103,10 @@
 	<div id="contact"></div>
 
 	<div style="position:relative;">
-	  <div style="color:#ddd;background-color:white;text-align:center;padding:50px 80px;text-align: center;">
+	  <div style="color:#777;background-color:white;text-align:center;padding:50px 80px;">
 		<h3>Contact</h3>
-		<p>call me, beep me, if you want to reach me</p>
-		<p>Phone: 1900-000-0000</p>
+		<p>Let's talk!</p>
+		<p>Phone: 0000-000-0000</p>
 		<p>Email: iqbalphotography@gmail.com</p>
 		<br>
 		<p>Also follow us on instagram @iqbalphotography</p>
@@ -106,16 +115,16 @@
 
 	<script>
 
-	function openNav() {
-		document.getElementById("mySidenav").style.width = "100%";
-		document.getElementById("mySidenav").style.height = "30%";
-	}
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "100%";
+			document.getElementById("mySidenav").style.height = "30%";
+		}
 
-	function closeNav() {
-		document.getElementById("mySidenav").style.width = "0";
-	}
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+		}
 
-</script>
+	</script>
 
 </body>
 </html>
