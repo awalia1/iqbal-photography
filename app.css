@@ -1,0 +1,18 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.hero-image {
+    background-image: url("images/hero-image.JPG");
+    background-color: #cccccc;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  nav {
+      display: none;
+  }
