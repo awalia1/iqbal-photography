@@ -51,13 +51,13 @@
     <section id="contact">
         <h1>Contact</h1>
         <p>Interested? Lets Talk!</p>
-        <form action="mailto:iqbalphotography@gmail.com" method="post" enctype="text/plain">
+        <form name="contactForm" action="mailto:iqbalphotography@gmail.com" method="post" enctype="text/plain" onsubmit="return contactFunction()">
             Name:<br>
-            <input type="text" name="name"><br>
+            <input type="text" name="name" required><br>
             E-mail:<br>
-            <input type="email" name="mail"><br>
+            <input type="email" name="mail" required><br>
             Comment:<br>
-            <textarea name="message" rows="10" cols="30"> </textarea><br><br>
+            <textarea name="message" rows="10" cols="30" required></textarea><br><br>
             <input class="submit" type="submit" value="Send">
             <input class="reset" type="reset" value="Reset">
             </form>
