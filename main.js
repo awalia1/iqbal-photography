@@ -3,11 +3,11 @@ window.addEventListener('scroll', function(){
     var heroText = document.getElementById('hero-text');
     scrollTarget = 10;
     	if (window.scrollY > scrollTarget) {
-            nav.classList.remove('hidden');
-            heroText.classList.add('hidden');
+            nav.classList.remove('invisible');
+            heroText.classList.add('invisible');
   		} else {
-            nav.classList.add('hidden');
-            heroText.classList.remove('hidden');
+            nav.classList.add('invisible');
+            heroText.classList.remove('invisible');
         }
 	})
 
