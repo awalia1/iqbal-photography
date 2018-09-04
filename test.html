@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Iqbal Photography</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="app.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -33,30 +34,30 @@
                     Contact
                 </div>
                 <div class="instagram-link">
-                    Instagram
+                    Follow us! <i class="fa fa-instagram"></i>
                 </div>
             </div>
         </nav>
     </div>
 
     <section id="about">
-        <<h1>About</h1>
+        <h1>About</h1>
         <p id="about-text"> </p>
     </section>
 
     <section id="gallery">
-        <h1 id="enter-gallery"><a href="gallery.html">Enter Gallery</a></h1>
+        <h2 id="enter-gallery"><a href="gallery.html">Enter Gallery</a></h2>
     </section>
 
     <section id="contact">
         <h1>Contact</h1>
         <p>Interested? Lets Talk!</p>
         <form name="contactForm" action="mailto:iqbalphotography@gmail.com" method="post" enctype="text/plain" onsubmit="return contactFunction()">
-            Name:<br>
+            <em>Name:</em><br>
             <input type="text" name="name" required><br>
-            E-mail:<br>
+            <em>E-mail:</em><br>
             <input type="email" name="mail" required><br>
-            Comment:<br>
+            <em>Comment:</em><br>
             <textarea name="message" rows="10" cols="30" required></textarea><br><br>
             <input class="submit" type="submit" value="Send">
             <input class="reset" type="reset" value="Reset">

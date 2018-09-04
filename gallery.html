@@ -1,1 +1,26 @@
-<h1>o</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="app.css" />
+    
+</head>
+<body>
+ 
+    <div id="bg-gallery"> </div>
+    
+    <script>
+
+    var ArrayOfImages = ['https://upload.wikimedia.org/wikipedia/commons/f/f9/Wiktionary_small.svg','https://upload.wikimedia.org/wikipedia/commons/f/f9/Wiktionary_small.svg','https://upload.wikimedia.org/wikipedia/commons/f/f9/Wiktionary_small.svg'];//your assumed array
+    ArrayOfImages.forEach(function(image){
+    var img = document.createElement('img');
+    img.src = image;
+    document.getElementById('bg-gallery').appendChild(img);
+    });
+
+    </script>
+</body>
+</html>

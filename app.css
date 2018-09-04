@@ -43,7 +43,11 @@ nav {
 }
 
 .logo {
+    font-size: 25px;
+    margin-top: 6px;
+    margin-left: 5px;
     flex: 1;
+    padding-bottom: 5px;
 }
 
 .bar-container { 
@@ -73,14 +77,26 @@ nav {
 }
 
 #menu-items {
-    background-color: purple;
+    background-color: black;
     text-align: center;
-    width: 300px;
-    margin: 10% auto;
+    width: 100%;
+    margin: 20% auto;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+#menu-items div {
+    margin-top: 10px;
 }
 
 section {
     text-align: center;
+}
+
+section h1 {
+    font-size: 30px;
+    text-decoration: underline;
 }
 
 #about {
@@ -92,6 +108,7 @@ section {
 #about-text {
     max-width: 90%;
     margin: 0 auto;
+    line-height: 2;
 }
 
 #gallery {
@@ -125,6 +142,10 @@ section {
     background-color: #FAFAFA;
     padding: 10px 0;
     margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 20px;
 }
 
 .submit {
@@ -161,4 +182,8 @@ footer {
     text-decoration: none;
     color: white;
     margin-right: 10px;
+}
+
+form input {
+    margin-bottom: 10px;
 }
