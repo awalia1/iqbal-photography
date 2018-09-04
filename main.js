@@ -9,6 +9,6 @@ var nav = document.getElementById('nav');
 //   		}
 // 	})
 
-function myFunction(x) {
+function menuReveal(x) {
     x.classList.toggle("change");
 }
