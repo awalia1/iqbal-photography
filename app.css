@@ -30,6 +30,7 @@ nav {
     color: white;
     position: fixed;
     width: 100%;
+    z-index: 2;
   }
 
 .hidden {
@@ -101,7 +102,6 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 #enter-gallery {
     font-size: 25px;
