@@ -11,10 +11,14 @@ window.addEventListener('scroll', function(){
         }
 	})
 
-function menuReveal(x) {
-    x.classList.toggle("change");
-    var menuItems = document.getElementById('menu-items');
+var menuItems = document.getElementById('menu-items');
+
+function menuReveal() {
     menuItems.classList.toggle("hidden");
+}
+
+function hideMenu(x) {
+    menuItems.classList.add("hidden");
 }
 
 var about = document.getElementById("about-text");
