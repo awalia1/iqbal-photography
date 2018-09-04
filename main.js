@@ -8,3 +8,7 @@ var nav = document.getElementById('nav');
 //     		nav.classList.remove('hidden');
 //   		}
 // 	})
+
+function myFunction(x) {
+    x.classList.toggle("change");
+}
