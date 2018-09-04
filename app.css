@@ -104,17 +104,21 @@ section {
 }
 
 #enter-gallery {
-    font-size: 25px;
     text-align: center;
     position: relative;
-    max-width: 200px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#enter-gallery a {
+    font-size: 35px;
     color: white;
-    text-shadow: 1px 1px 0px #000;
-    padding: 2%;
+    text-decoration: none;
     border: 3px solid white;
+    padding: 3%;
+    max-width: 200px;
+    text-shadow: 1px 1px 0px #000;
 }
 
 #contact {

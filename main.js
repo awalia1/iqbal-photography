@@ -1,5 +1,3 @@
-console.log("i'm here");
-
 window.addEventListener('scroll', function(){
     var nav = document.getElementById('nav');
     var heroText = document.getElementById('hero-text');
