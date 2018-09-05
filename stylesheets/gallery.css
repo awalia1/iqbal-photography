@@ -108,7 +108,7 @@ footer {
 }
 
 .gallery-image {
-    background-image: url("images/mobile-gallery.JPG");
+    background-image: url("../images/mobile-gallery.JPG");
     background-color: #cccccc;
     height: 750px;
     background-position: center;

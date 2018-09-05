@@ -4,7 +4,7 @@ html, body {
 }
 
 .hero-image {
-    background-image: url("images/hero-image-mobile.JPG");
+    background-image: url("../images/hero-image-mobile.JPG");
     background-color: #cccccc;
     height: 750px;
     background-position: center;
@@ -132,7 +132,7 @@ section h1 {
 }
 
 #gallery {
-    background-image: url("images/hands.jpg");
+    background-image: url("../images/hands.jpg");
     background-color: #cccccc;
     height: 250px;
     background-position: center;
@@ -206,49 +206,4 @@ footer {
 
 form input {
     margin-bottom: 10px;
-}
-
-.gallery-image {
-    background-image: url("images/mobile-gallery.JPG");
-    background-color: #cccccc;
-    height: 750px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.gallery-text {
-    font-size: 40px;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-shadow: 1px 1px 0px #000;
-    padding: 2%;
-    border: 3px solid white;
-}
-
-.scroll-text {
-    font-size: 40px;
-    text-align: center;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-shadow: 1px 1px 0px #000;
-    padding: 2%;
-}
-
-#bg-gallery {
-    max-width: 90%;
-    margin: 0 auto;
-}
-
-#bg-gallery img{
-    margin-top: 15px;
-    max-width: 100%;
 }
