@@ -17,7 +17,7 @@ function menuReveal() {
     menuItems.classList.toggle("hidden");
 }
 
-function hideMenu(x) {
+function hideMenu() {
     menuItems.classList.add("hidden");
 }
 
