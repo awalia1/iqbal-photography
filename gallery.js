@@ -36,6 +36,7 @@ var ArrayOfImages = [
     'images/flower-girl.JPG',
     'images/flowers.JPG',
     'images/city-guy.JPG',
+    'images/city-guy(2).JPG',
     'images/bw-city.JPG',
     'images/bw-city(2).JPG',
     'images/bw-city(3).JPG',
