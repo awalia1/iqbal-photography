@@ -3,9 +3,9 @@ window.addEventListener('scroll', function(){
     var heroText = document.getElementById('hero-text');
     scrollTarget = 10;
     	if (window.scrollY > scrollTarget) {
-            nav.style.opacity = "1";
+            nav.classList.remove("invisible");
   		} else {
-            nav.style.opacity = "0";
+            nav.classList.add("invisible");
         }
 	})
 

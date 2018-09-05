@@ -19,6 +19,10 @@ nav {
    padding-bottom: 5px;
 }
 
+.invisible {
+    opacity: 0;
+}
+
 .logo {
     font-size: 25px;
     flex: 1;
