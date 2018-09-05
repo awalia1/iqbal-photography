@@ -84,17 +84,21 @@ section h1 {
 }
 
 .submit {
+    border-radius: 10px;
     font-size: 20px;
     margin-right: 15px;
-    padding: 4px;
-    background-color: #28A875;
+    padding: 8px;
+    background-color: #5CB85C;
+    border: 1px solid #5CB85C;
     color: white;
 }
 
 .reset {
+    border-radius: 10px;
     font-size: 20px;
-    padding: 4px;
+    padding: 8px;
     background-color: #DC3545;
+    border: 1px solid #DC3545;
     color: white;
 }
 
