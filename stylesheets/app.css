@@ -29,6 +29,7 @@ section {
 section h1 {
     font-size: 30px;
     text-decoration: underline;
+    font-family: 'Cinzel Decorative', cursive;
 }
 
 #about {
@@ -41,6 +42,7 @@ section h1 {
     max-width: 90%;
     margin: 0 auto;
     line-height: 2;
+    font-family: 'Lora', serif;
 }
 
 #gallery {
@@ -80,6 +82,7 @@ section h1 {
 }
 
 #contact p {
+    font-family: 'Lora', serif;
     font-size: 20px;
 }
 
