@@ -4,10 +4,10 @@ window.addEventListener('scroll', function(){
     scrollTarget = 10;
     	if (window.scrollY > scrollTarget) {
             nav.classList.remove('invisible');
-            heroText.classList.add('invisible');
+            // heroText.classList.add('invisible');
   		} else {
             nav.classList.add('invisible');
-            heroText.classList.remove('invisible');
+            // heroText.classList.remove('invisible');
         }
 	})
 
