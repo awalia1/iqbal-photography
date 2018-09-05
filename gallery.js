@@ -55,5 +55,5 @@ var ArrayOfImages = [
 ArrayOfImages.forEach(function(image){
 var img = document.createElement('img');
 img.src = image;
-document.getElementById('bg-gallery').appendChild(img);
+document.getElementById('official-gallery').appendChild(img);
 });
