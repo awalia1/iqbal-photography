@@ -1,26 +1,3 @@
-window.addEventListener('scroll', function(){
-    var nav = document.getElementById('nav');
-    var heroText = document.getElementById('hero-text');
-    scrollTarget = 10;
-    	if (window.scrollY > scrollTarget) {
-            nav.classList.remove('invisible');
-            // heroText.classList.add('invisible');
-  		} else {
-            nav.classList.add('invisible');
-            // heroText.classList.remove('invisible');
-        }
-	})
-
-var menuItems = document.getElementById('menu-items');
-
-function menuReveal() {
-    menuItems.classList.toggle("hidden");
-}
-
-function hideMenu() {
-    menuItems.classList.add("hidden");
-}
-
 var ArrayOfImages = [
     'images/bench-kid.JPG',
     'images/proposal(1).JPG',

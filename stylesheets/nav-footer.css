@@ -13,14 +13,6 @@ nav {
 	transition-duration: 2s;
 }
 
-.invisible {
-    opacity: 0;
-}
-
-.hidden {
-   display: none;
-}
-
 .top-bar {
    display: flex;
    background-color: white;
@@ -69,6 +61,7 @@ nav {
     padding-top: 15px;
     padding-bottom: 25px;
     -webkit-animation: slide 0.5s forwards;
+    display: none;
     animation: slide 0.5s forwards;
 }
 

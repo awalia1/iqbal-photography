@@ -1,26 +1,3 @@
-window.addEventListener('scroll', function(){
-    var nav = document.getElementById('nav');
-    var heroText = document.getElementById('hero-text');
-    scrollTarget = 10;
-    	if (window.scrollY > scrollTarget) {
-            nav.classList.remove('invisible');
-            // heroText.classList.add('invisible');
-  		} else {
-            nav.classList.add('invisible');
-            // heroText.classList.remove('invisible');
-        }
-	})
-
-var menuItems = document.getElementById('menu-items');
-
-function menuReveal() {
-    menuItems.classList.toggle("hidden");
-}
-
-function hideMenu() {
-    menuItems.classList.add("hidden");
-}
-
 var about = document.getElementById("about-text");
 about.innerHTML = "Iqbal Photography is led by Asma Iqbal, who is armed with years of experience as a professional photographer. Asma's dedication to her craft is the reason why her ability to capture the moment and her subjects is unmatched across the industry. At Iqbal Photography, we specialize in all types of events from wedding, proposals to profiles and corporate events.";
 
