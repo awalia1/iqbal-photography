@@ -45,11 +45,11 @@
     max-width: 100%;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 1000px) {
 
     .gallery-image {
         background-image: url("../images/bench-kid.JPG");
-        height: 950px;
+        height: 900px;
     }
 
     #official-gallery {

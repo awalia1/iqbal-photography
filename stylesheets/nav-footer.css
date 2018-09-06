@@ -32,7 +32,6 @@ nav {
 }
 
 .bar-container { 
-    float: right;
     width: 35px;
     margin-top: 7px;
     margin-right: 5px;
@@ -105,4 +104,54 @@ footer {
     text-decoration: none;
     color: white;
     margin-right: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .logo {
+        font-size: 30px;
+    }
+
+    #menu-items {
+        display: flex;
+        font-size: 25px;
+        background-color: white;
+        text-align: initial;
+        position: initial;
+        left: initial;
+        width: initial;
+        margin: initial;
+        padding-top: initial;
+        padding-bottom: initial;
+        -webkit-animation: initial;
+        animation: initial;
+    }
+
+    #menu-items a {
+        margin-left: 20px;
+    }
+
+    .instagram-link {
+        float: right;
+    }
+
+    .top-bar-desktop {
+        background-color: white;
+        width: 100%;
+        display: flex;
+        padding-bottom: 5px;
+    }
+
+    #close-menu {
+        display: none;
+    }
+
+    .instagram-link {
+        margin-left: 700px;
+    }
+
+    .bar-container { 
+        display: none;
+    }
+    
 }
