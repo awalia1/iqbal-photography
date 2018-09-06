@@ -45,11 +45,27 @@
     max-width: 100%;
 }
 
-/* @media only screen and (min-width: 700px) {
+@media only screen and (min-width: 700px) {
+
+    .gallery-image {
+        background-image: url("../images/bench-kid.JPG");
+        height: 950px;
+    }
+
     #official-gallery {
-    
-    }
-    #official-gallery img{
-        max-width: 25%;
-    }
-} */
+        max-width: 97%;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        line-height: 0;
+        -webkit-column-count: 3;
+        -webkit-column-gap: 0px;
+        -moz-column-count: 3;
+        -moz-column-gap: 0px;
+        column-count: 3;
+        column-gap: 0px;  
+      }
+      
+      #official-gallery img {
+        margin: 1px;
+      }
+}
