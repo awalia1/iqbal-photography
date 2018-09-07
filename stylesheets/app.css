@@ -33,7 +33,7 @@ section h1 {
 }
 
 #about {
-    background-color: #eee;
+    background-color: #CFD8E1;
     padding: 6px 0;
     margin-top: 10px;
 }
@@ -81,7 +81,7 @@ section h1 {
 }
 
 #contact {
-    background-color: #eee;
+    background-color: #CFD8E1;
     padding: 20px 0;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -149,7 +149,7 @@ form input {
     }
 
     form {
-        background-color: #CFD8E1;
+        background-color: #eee;
         padding: 5%;
         border-radius: 10px;
     }
