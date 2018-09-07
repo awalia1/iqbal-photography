@@ -72,6 +72,12 @@ section h1 {
     padding: 3%;
     max-width: 200px;
     text-shadow: 1px 1px 0px #000;
+    cursor: pointer;
+} 
+
+#enter-gallery a:hover {
+    color: black;
+    background: white;
 }
 
 #contact {
@@ -118,6 +124,15 @@ form input {
     #hero-text {
         font-size: 45px;
         top: 40%;
+    }
+
+    #gallery {
+        background-image: url("../images/flowers.JPG");
+        height: 550px;
+    }
+
+    #enter-gallery a {
+        background: rgba(255, 255, 255, 0.1);
     }
 
     .contact-grid {

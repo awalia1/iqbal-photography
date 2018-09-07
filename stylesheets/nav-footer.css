@@ -68,7 +68,6 @@ nav {
     -webkit-animation: slide 0.5s forwards;
     /* display: none; */
     animation: slide 0.5s forwards;
-    cursor: pointer;
     letter-spacing: 2px;
 }
 
@@ -91,6 +90,7 @@ nav {
 #menu-items a {
     color: black ;
     text-decoration: none;
+    cursor: pointer;
 }
 
 footer {
