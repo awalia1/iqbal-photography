@@ -7,7 +7,17 @@
 <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
-.mySlides {display:none;}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 10px;
+}
+
+.mySlides {
+    display:none;
+    max-width: 40%;
+}
 </style>
 </head>
 
@@ -15,8 +25,12 @@
 
 <h2 class="w3-center">Automatic Slideshow</h2>
 
-<div id="slideshowImg" style="max-width:300px">
- 
+<div class="about-grid">
+    <div>
+        <h1>ok</h1>
+    </div>
+    <div id="slideshowImg">
+    </div>
 </div>
 
 <script>
@@ -31,7 +45,6 @@ var img = document.createElement('img');
 img.className = "mySlides";
 img.src = image;
 document.getElementById('slideshowImg').appendChild(img);
-gallery.style.backgroundImage = "url("+image+")";
 });
 
 var myIndex = 0;

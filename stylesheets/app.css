@@ -34,15 +34,22 @@ section h1 {
 
 #about {
     background-color: #CFD8E1;
-    padding: 6px 0;
+    padding-top: 15px;
+    padding-bottom: 30px;
     margin-top: 10px;
 }
 
 #about-text {
+    font-size: 18px;
     max-width: 90%;
     margin: 0 auto;
     line-height: 2;
     font-family: 'Lora', serif;
+    letter-spacing: 2px;
+}
+
+.hidden {
+    display: none;
 }
 
 #gallery {
@@ -131,6 +138,26 @@ form input {
         height: 550px;
     }
 
+    .about-grid {
+        display: grid;
+        max-width: 70%;
+        margin: auto;
+        margin-top: 40px;
+        grid-template-columns: 50% 50%;
+    }
+
+    #about-text {
+        font-size: 20px;
+        width: 100%;
+        margin-top: 5%;
+    }
+    
+    .mySlides {
+        box-shadow: 0 8px 6px -6px black;
+        display: none;
+        max-width: 60%;
+    }
+
     #enter-gallery a {
         background: rgba(255, 255, 255, 0.1);
     }
@@ -172,5 +199,9 @@ form input {
 
     .reset {
         width: 100px;
+    }
+
+    .hidden {
+        display: block;
     }
 }
