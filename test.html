@@ -60,10 +60,11 @@
         <h1>Contact</h1>
         <div class="contact-grid">
             <div>
-            <p>Interested? Lets Talk!</p>
-            <p id="contact-info-desktop">We offer a wide range of different packages for all types of events. If you want the moment to be captured so you can have a reminder of it forever, we'll be there! </p>
+                <p><b>Interested? Lets Talk!</b></p>
+                <p id="contact-info-desktop" class="hidden">We offer a wide range of different packages for all types of events. If you want the moment to be captured so you can have a reminder of it forever, we'll be there! </p>
             </div>
-            <form name="contactForm" action="mailto:iqbalphotography@gmail.com" method="post" enctype="text/plain" onsubmit="return contactFunction()">
+            <div>
+                <form name="contactForm" action="mailto:iqbalphotography@gmail.com" method="post" enctype="text/plain" onsubmit="return contactFunction()">
                 <em>Name:</em><br>
                 <input type="text" name="name" required><br>
                 <em>E-mail:</em><br>
@@ -73,6 +74,7 @@
                 <input class="submit" type="submit" value="Send">
                 <input class="reset" type="reset" value="Reset">
                 </form>
+            </div>
         </div>
     </section>
 

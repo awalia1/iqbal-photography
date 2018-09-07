@@ -76,7 +76,7 @@ section h1 {
 
 #contact {
     background-color: #eee;
-    padding: 10px 0;
+    padding: 20px 0;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -118,5 +118,44 @@ form input {
     #hero-text {
         font-size: 45px;
         top: 40%;
+    }
+
+    .contact-grid {
+        display: grid;
+        max-width: 80%;
+        margin: auto;
+        margin-top: 50px;
+        grid-template-columns: 50% 50%;
+        grid-gap: 50px;
+    }
+
+    #contact-info-desktop {
+        line-height: 2;
+    }
+
+    form {
+        background-color: #CFD8E1;
+        padding: 5%;
+        border-radius: 10px;
+    }
+
+    form input {
+        margin-top: 5px;
+        margin-bottom: 15px;
+        width: 55%;
+    }
+
+    form textarea {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 80%;
+    }
+
+    .submit {
+        width: 100px;
+    }
+
+    .reset {
+        width: 100px;
     }
 }
