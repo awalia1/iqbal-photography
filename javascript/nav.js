@@ -19,7 +19,3 @@ function menuReveal() {
     //     menuItems.style.display = "none";
     // }
 }
-
-function hideMenu() {
-    menuItems.style.display = "none";
-}
