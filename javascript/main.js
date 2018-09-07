@@ -1,6 +1,9 @@
 var about = document.getElementById("about-text");
 about.innerHTML = "Iqbal Photography is led by Asma Iqbal, who is armed with years of experience as a professional photographer. Asma's dedication to her craft is the reason why her ability to capture the moment and her subjects is unmatched across the industry. At Iqbal Photography, we specialize in all types of events from wedding, proposals to profiles and corporate events.";
 
+var contactInfo = document.getElementById("contact-info-desktop");
+contactInfo.innerHTML = "We offer a wide range of different packages for all types of events. If you want the moment to be captured so you can have a reminder of it forever, we'll be there!";
+
 function contactFunction() {
     var name =  document.forms["contactForm"]["name"];
     var email = document.forms["contactForm"]["mail"];
