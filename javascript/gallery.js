@@ -22,7 +22,7 @@ var ArrayOfImages = [
     'images/bench-kid.JPG',
     'images/kid(3).JPG',
     'images/hands.jpg',
-    'images/pumpkin-girl.JPG',
+    'images/pumpkin-girl.jpg',
     'images/hero-image.JPG',
     'images/hero-image-mobile.JPG', 
     'images/mobile-gallery.JPG'

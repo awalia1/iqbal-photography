@@ -26,7 +26,7 @@
                         <div class="bar3"></div>
                     </div>
                 </div>
-                <div id="menu-items">
+                <div id="menu-items" class="hidden">
                     <div id="close-menu"  onclick="hideMenu()">
                         X
                     </div>
@@ -58,17 +58,22 @@
 
     <section id="contact">
         <h1>Contact</h1>
-        <p>Interested? Lets Talk!</p>
-        <form name="contactForm" action="mailto:iqbalphotography@gmail.com" method="post" enctype="text/plain" onsubmit="return contactFunction()">
-            <em>Name:</em><br>
-            <input type="text" name="name" required><br>
-            <em>E-mail:</em><br>
-            <input type="email" name="mail" required><br>
-            <em>Comment:</em><br>
-            <textarea name="message" rows="10" cols="30" required></textarea><br><br>
-            <input class="submit" type="submit" value="Send">
-            <input class="reset" type="reset" value="Reset">
-            </form>
+        <div class="contact-grid">
+            <div>
+            <p>Interested? Lets Talk!</p>
+            <p id="contact-info-desktop">We offer a wide range of different packages for all types of events. If you want the moment to be captured so you can have a reminder of it forever, we'll be there! </p>
+            </div>
+            <form name="contactForm" action="mailto:iqbalphotography@gmail.com" method="post" enctype="text/plain" onsubmit="return contactFunction()">
+                <em>Name:</em><br>
+                <input type="text" name="name" required><br>
+                <em>E-mail:</em><br>
+                <input type="email" name="mail" required><br>
+                <em>Comment:</em><br>
+                <textarea name="message" rows="10" cols="30" required></textarea><br><br>
+                <input class="submit" type="submit" value="Send">
+                <input class="reset" type="reset" value="Reset">
+                </form>
+        </div>
     </section>
 
     <footer>

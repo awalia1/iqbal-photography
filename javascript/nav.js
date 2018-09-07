@@ -12,11 +12,12 @@ window.addEventListener('scroll', function(){
 var menuItems = document.getElementById('menu-items');
 
 function menuReveal() {
-    if (menuItems.style.display === "none") {
-        menuItems.style.display = "block";
-    } else {
-        menuItems.style.display = "none";
-    }
+    menuItems.classList.toggle("hidden");
+    // if (menuItems.style.display === "none") {
+    //     menuItems.style.display = "block";
+    // } else {
+    //     menuItems.style.display = "none";
+    // }
 }
 
 function hideMenu() {
