@@ -16,9 +16,9 @@ function contactFunction() {
 }
 
 imgArray = [
-    // 'images/slide-kid.JPG',
-    'images/slide-kid(2).JPG',
-    'images/slide-kid(3).JPG'
+    // 'images/slide-kid.jpg',
+    'images/slide-kid(2).jpg',
+    'images/slide-kid(3).jpg'
 ];
 
 var gallery = document.getElementById("gallery")
