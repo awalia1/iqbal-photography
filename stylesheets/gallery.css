@@ -2,7 +2,7 @@
     background-image: url("../images/mobile-gallery.JPG");
     background-color: #cccccc;
     height: 750px;
-    background-position: center;
+    /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -50,6 +50,14 @@
     .gallery-image {
         background-image: url("../images/bench-kid.JPG");
         height: 900px;
+    }
+
+    .gallery-text {
+        top: 45%;
+    }
+
+    .scroll-text {
+        top: 75%; 
     }
 
     #official-gallery {
