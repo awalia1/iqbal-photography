@@ -28,11 +28,29 @@ var ArrayOfImages = [
     'images/mobile-gallery.JPG'
 ];
 
+var modal = document.getElementById('myModal');
+// var img = document.createElement('img');
+
 ArrayOfImages.forEach(function(image){
-var img = document.createElement('img');
-img.src = image;
-document.getElementById('official-gallery').appendChild(img);
+    var img = document.createElement('img');
+    img.src = image;
+    document.getElementById('official-gallery').appendChild(img);
+    img.onclick = function() {
+        modal.style.display = "block";
+        // img.classList.add("modal");
+        modal.appendChild(this);
+    };
+    
 });
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+
+}
 
 // function myFunction(x) {
 //     if (x.matches) { // If media query matches
