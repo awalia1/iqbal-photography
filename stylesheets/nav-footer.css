@@ -58,7 +58,7 @@ nav {
     background-color: white;
     text-align: center;
     position: fixed;
-    left: -1000px;
+    left: -1500px;
     width: 100%;
     margin: 20% auto;
     font-size: 20px;
@@ -116,12 +116,12 @@ footer {
     margin-right: 10px;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1025px) {
 
     .logo {
         width: 30%;
         font-size: 38px;
-        margin-left: 15px;
+        margin-left: 50px;
         margin-right: 15px;
     }
 
@@ -131,7 +131,7 @@ footer {
         text-align: initial;
         position: relative;
         left: initial;
-        width: 65%;
+        width: 75%;
         margin-top: 20px;
         margin-bottom: initial;
         margin-right: initial;
@@ -166,7 +166,7 @@ footer {
 
     .instagram-link {
         margin-left: auto;
-        margin-right: 40px;
+        margin-right: 45px;
     }
 
     .bar-container { 
