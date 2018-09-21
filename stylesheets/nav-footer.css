@@ -10,7 +10,7 @@ nav {
     width: 100%;
     z-index: 2;
     transition: opacity;
-    transition-duration: 1s;
+    transition-duration: 2s;
 }
 
 .top-bar {
@@ -57,17 +57,15 @@ nav {
 #menu-items {
     background-color: white;
     text-align: center;
-    position: fixed;
+    position: relative;
     left: -1000px;
     width: 100%;
     margin: 20% auto;
     font-size: 20px;
     padding-top: 15px;
     padding-bottom: 25px;
-    -webkit-transition: 0.5;
-    transition: 0.5s;
-    -webkit-transition-timing-function: ease-in-out;
-    transition-timing-function: ease-in-out;
+    -webkit-animation: slide 0.5s forwards;
+    animation: slide 0.5s forwards;
     letter-spacing: 2px;
 }
 
@@ -75,8 +73,12 @@ nav {
     display: none;
 }
 
-.left {
-    left: 0 !important;
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
 }
 
 #menu-items div {
