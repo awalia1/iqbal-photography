@@ -12,7 +12,7 @@ window.addEventListener('scroll', function(){
 var menuItems = document.getElementById('menu-items');
 
 function menuReveal() {
-    menuItems.classList.toggle("hidden");
+    menuItems.classList.toggle("menu-transition");
     // if (menuItems.style.display === "none") {
     //     menuItems.style.display = "block";
     // } else {
